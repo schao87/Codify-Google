@@ -1,14 +1,15 @@
-<!doctype html>
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="nav">
-		<ul>
+		<ul class="wow slideInDown" data-wow-duration="1s" data-wow-delay=".5s">
 			<li><a href="https://plus.google.com/u/0/">+You</a></li>
 			<li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
 			<li><a href="https://www.google.com/imghp?hl=en&ei=KfQyVfLKAaaxsASY8IHACA&ved=0CAMQqi4oAg">Images</a></li>
@@ -20,7 +21,7 @@
 		<img class="logo" src="google.png">
 		<input class='searchbar'>
 		<div class="buttons">
-			<button class="searchBtn">Google Search</button>
+			<button class="searchBtn wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s" >Google Search</button>
 			<button class="luckyBtn">I'm Feeling Lucky</button>
 		</div>
 	</div>
@@ -35,5 +36,8 @@
 			<li><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
 		</ul>
 	</div>
+
+	<script type="text/javascript" src="wow.js"></script>
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
